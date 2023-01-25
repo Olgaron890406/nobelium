@@ -1,7 +1,7 @@
 const BLOG = {
   title: 'Master Blog',
   author: 'Master',
-  email: 'i@craigary.net',
+  email: 'luoras@proton.me',
   link: 'https://nobelium.vercel.app',
   description: 'Master blog',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
