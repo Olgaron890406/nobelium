@@ -86,31 +86,32 @@ pre[class*='language-'] {
   @apply hidden;
 }
 
-.tree{
+!!
+.notion{
   --spacing : 1.5rem;
   --radius  : 10px;
 }
 
-.tree li{
+.notion li{
   display      : block;
   position     : relative;
   padding-left : calc(2 * var(--spacing) - var(--radius) - 2px);
 }
 
-.tree ul{
+.notion ul{
   margin-left  : calc(var(--radius) - var(--spacing));
   padding-left : 0;
 }
 
-.tree ul li{
+.notion ul li{
   border-left : 2px solid #ddd;
 }
 
-.tree ul li:last-child{
+.notion ul li:last-child{
   border-color : transparent;
 }
 
-.tree ul li::before{
+.notion ul li::before{
   content      : '';
   display      : block;
   position     : absolute;
@@ -122,26 +123,26 @@ pre[class*='language-'] {
   border-width : 0 0 2px 2px;
 }
 
-.tree summary{
+.notion summary{
   display : block;
   cursor  : pointer;
 }
 
-.tree summary::marker,
-.tree summary::-webkit-details-marker{
+.notion summary::marker,
+.notion summary::-webkit-details-marker{
   display : none;
 }
 
-.tree summary:focus{
+.notion summary:focus{
   outline : none;
 }
 
-.tree summary:focus-visible{
+.notion summary:focus-visible{
   outline : 1px dotted #000;
 }
 
-.tree li::after,
-.tree summary::before{
+.notion li::after,
+.notion summary::before{
   content       : '';
   display       : block;
   position      : absolute;
@@ -153,7 +154,7 @@ pre[class*='language-'] {
   background    : #ddd;
 }
 
-.tree summary::before{
+.notion summary::before{
   content     : '+';
   z-index     : 1;
   background  : #696;
@@ -162,6 +163,6 @@ pre[class*='language-'] {
   text-align  : center;
 }
 
-.tree details[open] > summary::before{
+.notion details[open] > summary::before{
   content : '−';
 }
