@@ -1,9 +1,9 @@
 const BLOG = {
-  title: 'Master Blog',
-  author: 'Master',
+  title: 'Merlinus',
+  author: 'Merlinus',
   email: 'luoras@proton.me',
   link: 'https://nobelium.vercel.app',
-  description: 'Master blog',
+  description: '',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'light', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
