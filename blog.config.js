@@ -2,7 +2,7 @@ const BLOG = {
   title: 'Merlinus',
   author: 'Merlinus',
   email: 'luoras@proton.me',
-  link: 'https://nobelium.vercel.app',
+  link: 'https://merlinus.me/',
   description: '',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'light', // ['light', 'dark', 'auto'],
